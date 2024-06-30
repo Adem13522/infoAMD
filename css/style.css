@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+/* hatha awil parti min navbar */
+
+.part1{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: #0000FF
+  
+
+}
+.part1  p{
+  font-family: "League Spartan", sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+.tele{
+  display: flex;
+  color: #fff;
+  
+}
+.link{
+  font-size: 30px;
+  color: #fff;
+  margin-left: 5rem;
+  transform: translateY(10%) ;
+ 
+
+}
+.link i{
+  transition: all .3s;
+}
+
+.link i:hover{
+  transform: translateY(-5px);
+}
+
+
+
+
+.section {
+    background-image: url('../img/1717433459481\ \(1\).webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1rem;
+    height: 28rem;
+    margin-top: 10px;
+   
+   
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+
+}
+
+
+/* label hatha mat3 bare recherche */
+.label{
+    height: 40px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: 1px solid  rgba(0, 0, 0, 0.543);
+    align-items: center;
+    margin: 0 40%;
+}
+.label:hover input{
+    width: 400px;
+    
+}
+.label input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+    
+    
+}
+.label a .bx{
+    color:#0000FF ;
+    font-size: 18px;
+    
+}
+
+
+/* logo  hatha logo */
+.navbar {
+  display: flex;
+  justify-content: space-between;align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.219);
+  padding: 10px 20px;
+}
+
+.navbar .top-row {
+  display: flex;
+  align-items: center;
+}
+.navbar .logo img{
+  width: 10rem;
+}
+.navbar .logo {
+  margin-right: auto;
+  
+}
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 2rem; /* Adjust font size as needed */
+  
+}
+
+.navbar ul li {
+  margin-right: 20px; /* Adjust spacing between items */
+  
+  
+}
+
+.navbar ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: #0000FF;
+}
+/* ah toi les article ya wouchouch */
+
+.aside img{
+    width: 20rem;
+    margin: 2rem ;
+    
+    border-radius: 10px;
+}
+.hc{
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: -10px;
+  font-family: "League Spartan", sans-serif;
+  
+}
+.hc span{
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 20Px;
+  background-color: #0000FF;
+  color:#fff;
+  padding: 10px;
+}
+.aside{
+   margin: 3rem 0;
+   margin-left: 8rem;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   
+}
+
+
+.article{
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.article img{
+    width: 10rem;
+    margin: 5rem;
+
+}
+
+.hb{
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom:2rem ;
+  font-family: "League Spartan", sans-serif;
+
+  
+}
+
+/* formulaire */
+.formulaire{
+  height: 35%;
+  background-color: #0000FF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.text {
+  margin-bottom: 40px;
+}
+.text h1{
+  font-family: "League Spartan", sans-serif;
+  font-size: 40px;
+  color: #fff;
+  
+  margin-top: 3rem;
+}
+.text p{
+  font-family: "League Spartan", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 10px;
+
+}
+.formulaire input, button{
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 3rem;
+  font-family: "League Spartan", sans-serif;
+
+  
+  
+
+ 
+}
+.email{
+  width: 500px;
+  padding-right: 50px;
+  
+}
+
+.formulaire input{
+  width: 80%;
+  
+}
+.formulaire button{
+  background-color: black;
+  color: #fff;
+  font-family: "League Spartan", sans-serif;
+  width: 80px;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0;
+  font-family: "League Spartan", sans-serif;
+}
+hr{
+  width: 70%;
+
+}
+footer img{
+  width: 20rem;
+  align-items: center;
+
+}
+
+
+/* key of */
+@keyframes slide {
+  from {
+      transform: translateX(0);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding-top: 10px;
+  white-space: nowrap;
+  position: relative;
+
+}
+.logos-slide img{
+  width : 120px ;
+  margin-right : 35px;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: 15s slide infinite  linear;
+}
+@media (max-width: 360px) {
+  .aside {
+    
+    display: flex;
+    
+  }
+  .aside img {
+    margin-right: 50rem ; /* Adjust margins as needed */
+    
+    
+   ;
+  }
+}
+
+ 
+  
+
+
